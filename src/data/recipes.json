@@ -1,0 +1,38 @@
+{
+  "recipes": [
+    {
+      "name": "Paradicsomos tészta",
+      "image": "https://image-api.nosalty.hu/nosalty/images/recipes/WC/or/spaghetti-all-assassina.jpg?w=670&fit=crop&fm=webp&crop=%2C%2C%2C&h=460&mark=watermark.png&markpos=bottom-left&markpad=20&markw=&s=171c2541d80a9bb4c6d0ae95bed6894f",
+      "ingredients": [
+        "20 dkg passzírozott paradicsom",
+        "1 ek sűrített paradicsom",
+        "7 dl víz",
+        "1 marék bazsalikom",
+        "só ízlés szerint",
+        "spagetti",
+        "4 ek olívaolaj",
+        "4 gerezd fokhagyma (nagy gerezd legyen!)",
+        "0.5 db chili (friss)",
+        "1 tk chilipehely",
+        "30 dkg passzírozott paradicsom",
+        "25 dkg spagetti tészta",
+        "só ízlés szerint",
+        "bors ízlés szerint"
+        ],
+      "tags": ["ebéd", "vacsora", "vegetáriánus", "vegán"],
+      "description": "paradicsomlé:\nEgy kis forralóedénybe beleöntjük a passátát, a sűrített paradicsomot, majd felöntjük vízzel (érdemes a passata üvegét előbb átlögybölni a vízzel). Hozzáadunk pár szál bazsalikomot és megsózzuk ízlés szerint.\nLassú tűzön összeforraljuk az egészet egy picit hígabb paradicsomlevessé, majd félretesszük.\nspagetti\nVegyünk elő egy nagyobb serpenyőt, amiben keresztbe nagyjából elfér a spagetti. Lehetőleg olyan edényt használjunk, ami nem teflonbevonatú, mert itt pont az lesz a cél, hogy picit odaégessük a tésztát!\nHevítsük fel az olívaolajat a serpenyőben, majd pár perc alatt futassuk meg rajta a zúzott fokhagymát, az aprított chilit és a szárított chilipelyhet. Amikor ezzel megvagyunk, öntsük bele a passata másik felét, keverjük át, majd jöhet bele a spagetti keresztbe fektetve.\nHagyjuk így a tésztát pár percre, ügyelve rá, hogy alul minél nagyobb felületen érjen hozzá a spagetti a serpenyőhöz. A tészta ekkor egyrészt elkezd puhulni a passátában, másrészt az alja kissé odakap - ebben az olasz specialitásban pedig éppen ez a lényeg! Amikor eltelt 3-4 perc, spatula vagy csipesz segítségével fordítsuk át az egész spagettit, hogy a másik oldala is meg tudjon pirulni.\nAmikor a tésztát ilyen módon előkészítettük, elkezdhetjük hozzáadagolni a paradicsom-alaplevünket. Egyszerre csak egy-két kanállal adjunk hozzá, majd amikor felvette a tészta a folyadékot, pótoljuk - pont, mint a rizottó esetében!\nHagyjuk így főni a tésztát, amíg tökéletesre fő. Valószínűleg nem lesz szükségünk az összes paradicsomlére, de a maradékot véletlenül se öntsük ki, remek alapja lehet raguknak, mártásoknak, leveseknek.\nTálalás előtt kóstoljuk meg, majd sózzuk még meg, ha szükségesnek érezzük.\nTálaljuk frissen őrölt borssal meghintve és bazsalikomlevéllel díszítve. Ízlés szerint kínálhatjuk burrátával vagy másféle, számunkra szimpatikus olasz sajttal."
+    },
+    {
+      "name": "Rántotta",
+      "image": "https://cdn.mindmegette.hu/2024/04/eBWwbdl6_GWdlkao35nK8EcYbxdbWkqXi4luVIDqdwM/fill/0/0/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzAzOWRmN2E5ODhjMTQ3M2M5NTc3MDhkZDYzMDlmNGRk.webp",
+      "ingredients": [
+        "0.5 tk olaj",
+        "1 tk vaj",
+        "3 db tojás",
+        "1 csipet só"
+        ],
+      "tags": ["reggeli", "vegetáriánus", "gyors", "diétás", "olcsó"],
+      "description": "Egy serpenyőt közepes lángon melegíteni kezdünk. Beleöntjük az olajat, majd hozzáadjuk a vajat. Amíg a vaj felhabzik, a tojásokat egy keverőtálba öntjük, sózzuk, villával kissé felverjük (nem kell, hogy teljesen elkeveredjen a sárgája a fehérjével).\nA keveréket a habzó vajra öntjük, és körkörös mozdulatokkal keverve megsütjük. Ügyeljünk arra, hogy ne süssük szárazra (3 db tojás esetén nagyjából 1-2 perc a sütési idő).\nVégül ízlés szerint megszórhatjuk egy kevés őrölt pirospaprikával vagy akár sajttal. Pirítóssal, vagy friss kenyérrel tálaljuk."
+    }
+  ]
+}
