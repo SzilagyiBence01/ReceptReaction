@@ -3,7 +3,7 @@ import React from "react";
 export default function App() {
   return (
     <div>
-      <h1>Recept Reaction</h1>
+      <h1>Rékának kaki szaga vany</h1>
     </div>
   );
 }
