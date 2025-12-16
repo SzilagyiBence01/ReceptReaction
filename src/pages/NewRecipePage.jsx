@@ -7,7 +7,7 @@ import RecipeForm from "../components/RecipeForm";
 export default function NewRecipePage() {
   const [recipes, setRecipes] = useState([]);
 
-  // Recept hozzásadás
+  // Recept hozzásadás 
   const handleAddRecipe = (newRecipe) => {
     setRecipes(prev => [...prev, newRecipe]);
   };

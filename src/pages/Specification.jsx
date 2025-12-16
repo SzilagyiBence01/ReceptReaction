@@ -1,5 +1,8 @@
 import React from "react";
 
+/*
+    Ide kerül egyszerűen formázva a házifeladat első szakasához leadott specializáció
+*/
 export default function Specification() {
   return (
     <div className="text-formalization">

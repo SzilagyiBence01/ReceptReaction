@@ -24,21 +24,28 @@ export default function RecipeDetailsPage() {
     setRecipe(foundRecipe);
   }, [name]);
 
+  // abban az esetben ha nem létezne a recept, elméletileg nem szabad megjelenjen soha 
   if (!recipe) {
     return <p>Recept nem található.</p>;
   }
 
+  // recept leírása 
   return (
     <div className="text-formalization">
+      {/* recept neve */}
       <h1>{recipe.name}</h1>
+
+      {/* kép az ételről */}
       <img
         src={recipe.image}
         alt={recipe.name}
         style={{ width: "100%", maxHeight: "300px", objectFit: "cover", borderRadius: "12px" }}
       />
 
+      {/* kedvencek gomb */}
       <FavoritesButton recipe={recipe} />
 
+      {/* hozzávalók listázása */}
       <h3>Hozzávalók:</h3>
       <ul>
         {recipe.ingredients.map((ingredient, index) => (
@@ -46,6 +53,7 @@ export default function RecipeDetailsPage() {
         ))}
       </ul>
 
+      {/* étel-hez rendelt tag-ek */}
       <h3>Tagek:</h3>
       <div className="recipe-tags">
         {recipe.tags.map((tag, index) => (
@@ -53,6 +61,7 @@ export default function RecipeDetailsPage() {
         ))}
       </div>
 
+      {/* elékszítés leírása */}
       <h3>Leírás:</h3>
       <p style={{ whiteSpace: "pre-line" }}>{recipe.description}</p>
     </div>

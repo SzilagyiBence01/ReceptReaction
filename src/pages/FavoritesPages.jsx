@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard";
 
-// Ha a FavoritesButton a localStorage-ba menti a kedvenceket,
-// itt is innen olvassuk ki
+/*
+    A kedvencek fülön megjelenő rész
+*/
 export default function FavoritesPages() {
   // ebben a state változóban tároljuk a kedvencekhez adott recepteket
   const [favoriteRecipes, setFavoriteRecipes] = useState([]);
