@@ -1,0 +1,166 @@
+/*
+  Logó sáv beállításai
+*/
+/* Logo beállítása */
+#HeaderLogo { 
+  width: auto; 
+  height: 120px;
+  cursor: pointer;
+}
+/* A header container formázása */
+#headerheader {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  background-color: #f5f5f5;
+}
+
+
+/*
+  Navigációs sáv beállításai
+*/
+nav {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: #fff8b0;
+  border: 2px solid #00aa00; 
+  border-radius: 12px; 
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px; 
+}
+/*  */
+nav a {
+  text-decoration: none;
+  color: #006600; 
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+nav a:hover {
+  color: #91c491; 
+}
+
+
+/* 
+ Az alkalmazásól és a speceifikációról oldalon megjelenő szöveg formázása (az új recept form is erre a mintára került)
+*/
+/* szöveg és keret */
+.text-formalization {
+  max-width: 1000px;       
+  margin: 0 auto;         
+  padding: 20px;
+  background-color: #fff8b0; 
+  border: 2px solid #00aa00; 
+  border-radius: 12px;
+  line-height: 1.6;
+}
+/* cím formázása */
+.text-formalization h1 {
+  text-align: center;
+  color: #006600;
+  margin-bottom: 20px;
+}
+/* sorok közötti tér */
+.text-formalization p {
+  margin-bottom: 15px;
+}
+
+
+/*
+  Főoldalon megjelenő formázás
+*/
+/* RecipeList konténere */
+.recipe-list {
+  display: grid; /* rácsos elrebdezés automtikusan */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+/* egyetlen recept kártya */
+.recipe-card {
+  background-color: #fff8b0;
+  border: 2px solid #00aa00; 
+  border-radius: 12px;
+  overflow: hidden;    /* a lekerekített sarkoknál vágja a képet is */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* enyhe árnyékolás */
+  display: flex;          /**/
+  flex-direction: column; /* elemek egymás alatt */
+  transition: transform 0.2s;
+}
+/* hover az egér kárty fölé mozdításánál */
+.recipe-card:hover {
+  transform: scale(1.031);
+}
+/* Kép egységes méretben, arány megtartás */
+.recipe-image {
+  width: 100%;       /**/
+  height: 180px;     /* fix magasság */
+  object-fit: cover; /* box kitöltese, arányt megtartva */
+}
+/* kártya cím/recept neve */
+.recipe-card h3 {
+  text-align: center;
+  margin: 10px 0;
+  color: #006600;
+}
+
+/* 
+  Tag-ek 
+*/
+/* tag konténer */
+.recipe-tags {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 5px;
+  padding: 0 10px 10px 10px;
+}
+/* egyetlen tag */
+.tag {
+  border: 1px solid #00aa00;
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  color: #006600;
+  background-color: #f0fff0;
+}
+
+/*
+  Kedvencek gomb
+*/
+.fav {
+  border: none;           
+  background: none;     
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ff4444;
+  padding: 0;
+  transition: transform 0.2s;
+}
+/* hoover ha a gomb fölé visszük az egeret (scale) */
+.fav:hover {
+  transform: scale(1.2); 
+}
+/* ha kedvencekhez adva színváltás */
+.fav.active {
+  color: gold;            
+}
+
+/*
+  Footer
+*/
+html, body, #root {
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+.content {
+  flex: 1; 
+}
